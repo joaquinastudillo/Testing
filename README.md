@@ -26,6 +26,17 @@ The server persists using a SQLite3 database named `database.sqlite` in the site
 This project uses ESLint to detect suspicious code in Javascript files.
 Visit http://eslint.org for details.
 
+### Testing
+
+This project uses Mocha and Chai for testing.
+Visit http://mochajs.org and http://chaijs.com for details.
+
+To execute tests:
+
+```bash
+npm test
+```
+
 ### Debugging
 
 This project uses https://www.npmjs.com/package/debug for development logging. To start `nodemon` and enable logging:
